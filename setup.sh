@@ -21,6 +21,7 @@ VERSION=$(curl -s https://api.github.com/repos/bakemyweb/bakemyweb-cli/releases/
 
 BINARY_NAME="bakemyweb-${VERSION}-${OS}-${ARCH}"
 DOWNLOAD_URL="https://github.com/bakemyweb/bakemyweb-cli/releases/download/${VERSION}/${BINARY_NAME}"
+echo $DOWNLOAD_URL
 INSTALL_DIR="$HOME/.local/bin"
 
 echo "Installing bakemyweb ${VERSION}..."
