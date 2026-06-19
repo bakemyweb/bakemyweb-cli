@@ -2,6 +2,10 @@
 
 `bakemyweb` is a command-line tool for managing and deploying projects on bakemyweb.com.
 
+## Installation
+
+`curl -sSL https://raw.githubusercontent.com/bakemyweb/bakemyweb-cli/master/setup.sh | bash`
+
 ## Global Flags
 
 These flags are available on all commands:
