@@ -2,6 +2,10 @@
 
 `bakemyweb` is a command-line tool for managing and deploying projects on bakemyweb.com.
 
+## Update new Release
+
+`go-builder build --target all`
+
 ## Installation
 
 `curl -sSL https://raw.githubusercontent.com/bakemyweb/bakemyweb-cli/master/setup.sh | bash`
